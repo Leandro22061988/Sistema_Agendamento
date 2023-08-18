@@ -1,0 +1,64 @@
+@charset "utf-8";
+/* 
+Nome do Template: J C SISTEMAS - Salão de Beleza
+Versão: 2.0
+Autor: JACY CORDEIRO
+Author URL: https://jacycordeiro.com.br/
+E-mail: contatos@jacycordeiro.com.br
+*/
+
+html/*{background-color: #FFF;}*/ { background: url(../img/fundo_cb.svg) no-repeat center center fixed; background-size:cover; -moz-background-size:cover; -o-background-size:cover; -webkit-background-size:cover;}
+
+body{margin-top:0; margin-bottom:0px; margin-left:0px; margin-right:0px; font-family: Tahoma, Geneva, sans-serif; font-size:14px; }
+.logo{width: 100%; float: left; margin-bottom: 2%; padding: 2% 0% 2% 0%; /*background-color: #FFF; border-radius: 5px; border: 1px solid #00aaff ;*/}
+.logo img.alinha{display: block; margin-left: auto; margin-right: auto;}
+
+/***Login***/
+#baseLogin{width:100%; float:left; margin:2% 0% 3% 0%;}
+#baseLogin .login{margin:0 auto; width:600px;  padding:10px 10px 20px 10px; background-color:#FFF; border:1px solid #D4D4D4; border-radius:10px; -moz-border-radius:10px; -webkit-border-radius:10px;}
+#baseLogin .login .input{width:93%; float:left; padding:5px; margin:5px 0px 0px 4px; border:1px solid #EAEAEA; border-radius:5px; -moz-border-radius:5px; -webkit-border-radius:5px; font-size:14px;} 
+#baseLogin .login .botao{width:93%; height:35px; margin:5px 0px 0px 4px; float:left; font-size:16px; background-color:#daa520; color:#FFF; border-radius:5px; -moz-border-radius:5px; -webkit-border-radius:5px;}
+#baseLogin .login .titulo{width:99%; float:left; padding:10px 0px 10px 0px; margin:3px 1px 10px 1px; font-size:22px; background-color:#00aaff; color:#FFF; text-align:center; border:1px solid #FFF; border-radius:10px; -moz-border-radius:10px; -webkit-border-radius:10px;}
+#baseLogin .login .mens{width:100%; height:75px; float:left;}
+#baseLogin .login .esqueci{width:97%; float:left; padding:5px 0px 5px 0px; margin:10px 3px 10px 3px; font-size:14px; color:#333; text-align:center;}
+#baseLogin .login .esqueci a{color:#333; text-decoration:none; font-weight:bold;}
+#baseLogin .login .esqueci a:hover{color:#069; text-decoration:underline;}
+
+.baseInput-4{width: 90%; float: left; padding: 0px 0px 0px 0px; margin: 0px 0px 10px 10px}
+.baseInput-3{width: 40%; float: left; padding: 5px 0px 5px 0px; margin: 0px 0px 10px 0px}
+.baseInput-2{width: 20%; float: left; padding: 20px 0px 0px 5px;}
+.baseInput-1{width: 20%; float: left; padding: 0px 0px 0px 5px;}
+
+
+@media screen and (max-width:500px){
+  .baseInput-3{width: 90%; float: left; padding: 5px 0px 5px 0px; margin: 0px 0px 10px 0px}
+  .baseInput-2{width: 95%; float: left; padding: 20px 0px 0px 5px;}
+  .baseInput-1{width: 95%; float: left; padding: 0px 0px 0px 5px;}
+}
+.ima{
+  width: 100px; float: left; margin: 5px;
+}
+.mone{
+  font-size: 33px; margin: 5px 0px 0px 15px;
+}
+.monec{
+  font-size: 33px; margin: 5px 0px 0px 15px; color: #169E75;
+}
+
+footer{width:100%; float:left; margin:20px 0px 0px 0px;}
+footer .media{width:305px; float:left; margin:30px 0px 5px 5px;}
+footer .media .h1{font-size:14px; color:#969696;}
+footer .media p{ margin:0px 0px 0px 0px; font-size:36px;}
+footer .media p a{color:#daa520;}
+footer .media p a:hover{color:#063;}
+
+footer .chave{max-width:500px; float:left; margin:30px 0px 5px 5px;}
+footer .chave .palavras{ padding:3px; margin:3px; border:1px solid #D5D5D5; border-radius:5px; color:#969696; float:left; font-size:16px;}
+footer .chave .h1{font-size:24px; color:#969696; margin-bottom:10px;}
+
+footer .endereco{ width:305px; float:right; margin:30px 0px 5px 5px; padding:0px 0px 0px 0px; font-size:13px;}
+footer .endereco .h1{font-size:24px; color:#969696;}
+footer .endereco .h1 img{float:left;}
+footer .endereco p{ margin:0px 0px 0px 0px; font-size:14px; color:#666;}
+footer .endereco .criado{ width:100%; float:left; margin:5px 0px 5px 5px;}
+footer .copy{width:100%; float:left; padding:5px 0px 5px 0px; text-align:center; font-size:13px; color:#333;}
