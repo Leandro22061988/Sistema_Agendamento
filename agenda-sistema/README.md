@@ -1,1 +1,1 @@
-## Detalhes  a criar
+## Detalhes  a criar no projeto 
